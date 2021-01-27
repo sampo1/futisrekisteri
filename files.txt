@@ -1,0 +1,62 @@
+!https://tim.jyu.fi/view/kurssit/tie/ohj2/2018k/ht/saniosru = Suunnitelma TIMiss‰
+
+<h3> Ohjelman suunnitelma </h3>
+
+kuvat/paaikkuna2.jpeg    = ohjelman p‰‰ikkuna (SceneBuilder)
+kuvat/paaikkuna2.png     = ohjelman p‰‰ikkuna (SceneBuilder)
+kuvat/alkunaytto2.jpeg   = kuva ohjelman alusta (SceneBuilder)
+kuvat/haluatkopoistaa.jpeg = varmistaa haluatko poistaa pelaajan
+kuvat/muokkaus.jpeg 	 = pelaajan tietojen muokkausikkuna
+kuvat/seuraaeiloydy.jpeg = virhe : seuraa ei ole tallennettuna
+
+<h3> Ohjelman esisuunnitelma </h3>
+
+kuvat/paaikkuna.jpeg     = ohjelman p‰‰ikkuna (kp)
+kuvat/alkunaytto.jpeg    = kuva ohjelman alusta (kp)
+kuvat/virheilmoitus.jpeg = virheilmoitus jos tiedostoa ei ole (kp)
+
+kuvat/futiskuva.png	 = kuva jalkapallosta alkun‰ytˆll‰
+
+<h3> Ajettava jar </h3>
+
+futisrekisteri/futisrekisteri.jar
+
+<h3> Tietorakenteet </h3>
+
+futisrekisteri/src/FutisrekisteriTietokanta/Tilastot.java = Tilastot-luokka
+futisrekisteri/src/FutisrekisteriTietokanta/Tilasto.java = Tilasto-luokka
+futisrekisteri/src/FutisrekisteriTietokanta/PoikkeusException.java = Poikkeus, kun ei osata tallentaa tai avata
+futisrekisteri/src/FutisrekisteriTietokanta/Pelaaja.java = Pelaaja-luokka
+futisrekisteri/src/FutisrekisteriTietokanta/Pelaajat.java = Pelaajat-luokka
+futisrekisteri/src/FutisrekisteriTietokanta/Rekisteri.java = Rekisteriluokka
+futisrekisteri/src/FutisrekisteriTietokanta/Tarkistaja.java = Tarkstajaluokka
+futisrekisteri/src/FutisrekisteriTietokanta/Tietue.java = Tietueluokka
+futisrekisteri/src/FutisrekisteriTietokanta/Kentta.java = Kenttaluokka
+futisrekisteri/src/FutisrekisteriTietokanta/PerusKentta.java = PerusKenttaluokka
+futisrekisteri/src/FutisrekisteriTietokanta/IntKentta.java = IntKenttaluokka
+futisrekisteri/src/FutisrekisteriTietokanta/JonoKentta.java = JonoKenttaluokka
+
+<h3> Ohjelman ulkoasu JavaFX </h3>
+
+futisrekisteri/src/fkFutisrekisteri/futisrekisteri.css = tyylilomake
+futisrekisteri/src/fkFutisrekisteri/FutisrekisteriGUIController.java = Alkun‰yttˆ jossa seuran nimi kysyt‰‰n
+futisrekisteri/src/fkFutisrekisteri/Futisrekisterimain.java = p‰‰luokka josta ohjelma k‰ynnistet‰‰n
+futisrekisteri/src/fkFutisrekisteri/FutisrekisteriPaaikkunaController.java = Ohjelman p‰‰ikkunan kontrolleri
+futisrekisteri/src/fkFutisrekisteri/FutisrekisteriPaaikkuna.fxml = Ohjelman p‰‰ikkuna
+futisrekisteri/src/fkFutisrekisteri/FutisrekisteriGUIView.fxml = Alkun‰ytˆn ikkuna
+futisrekisteri/src/fkFutisrekisteri/FutisrekisteriMuokkaus.fxml = Pelaajan muokkausikkuna
+futisrekisteri/src/fkFutisrekisteri/FutisrekisteriMuokkausController.java = Pelaajan muokkauksen controller
+futisrekisteri/src/fkFutisrekisteri/TulostusController.java = Tulostuksen controller
+futisrekisteri/src/fkFutisrekisteri/Tulostus.fxml = Tulostusikkuna
+
+<h3> Muita tiedostoja </h3>
+
+futisrekisteri/.classpath = luokkapolku
+futisrekisteri/.project = projekti
+futisrekisteri/build.fxbuild
+futisrekisteri/build.xml
+futisrekisteri/Barcelona/pelaajat.dat = testiseuratiedostot
+futisrekisteri/Barcelona/tilastot.dat = testiseuratiedostot
+futisrekisteri/Barcelona/tilastot.bak = testiseuratiedostot
+futisrekisteri/Barcelona/pelaajat.bak = testiseuratiedostot
+
